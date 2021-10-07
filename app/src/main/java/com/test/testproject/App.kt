@@ -12,7 +12,8 @@ class App : Application() {
     private val diModules = listOf(
         viewModelModule,
         networkModule,
-        repoModule
+        repoModule,
+        dbModule
     )
 
     override fun onCreate() {

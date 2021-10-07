@@ -11,7 +11,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import java.util.concurrent.TimeUnit
 
-private const val BASE_URL = "https://api.github.com/"
+private const val BASE_URL = "https://api.coinstats.app"
 private const val CONNECTION_TIMEOUT = 20L
 private const val READ_WRITE_TIMEOUT = 20L
 
